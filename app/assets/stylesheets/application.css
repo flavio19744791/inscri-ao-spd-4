@@ -13,3 +13,82 @@
  *= require_tree .
  *= require_self
  */
+#content{
+  background-color:#dcd0d0;
+  higher:100%;
+  height:700px;
+  text-align: center;
+  padding:10px;
+}
+
+#h1{
+  font-size:70px;
+  margin:50px 0 10px;
+}
+
+#h2{
+  font-size:35px;
+   margin:10px 0 10px;
+   text-align: center;
+  font-family:'Courter New', Counter, monospace;
+}
+
+#button{
+  background-color:#db6b6b;
+  border:none;
+  color:white;
+   padding:15px 32px;
+  text-align: center;
+  text-decoraction:none;
+  display:inline-block; 
+  font-size:16px;
+  
+}
+#h2:after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keiframes pisca{
+  0%, 100%{
+   opacity: 1;
+  }
+ 50%{
+   opacity: 0;
+ }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin:0 auto;
+  padding:0 ;
+  box_Sizing: border-box;
+  font-family:'Open Sans',sans-serif;
+}
+#menu {
+   text-align: center;
+   background-color:#050000;
+}
+#menu ul {
+  max-width:800px;
+  list-styler:none;
+  padding: 0;
+}
+
+#menu ul li {
+  display:inline;
+  
+}
+#menu ul li a {
+   color:#fff;
+   padding:20px;
+   display:inline-block; 
+   text-decoraction:none;
+   transition:background .4s;
+}
+
+#menu ul li a:hover{
+  background-color:#411ef1;
+} 
