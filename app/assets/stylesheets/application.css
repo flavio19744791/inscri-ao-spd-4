@@ -59,3 +59,36 @@
    opacity: 0;
  }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin:0 auto;
+  padding:0 ;
+  box_Sizing: border-box;
+  font-family:'Open Sans',sans-serif;
+}
+#menu {
+   text-align: center;
+   background-color:#050000;
+}
+#menu ul {
+  max-width:800px;
+  list-styler:none;
+  padding: 0;
+}
+
+#menu ul li {
+  display:inline;
+  
+}
+#menu ul li a {
+   color:#fff;
+   padding:20px;
+   display:inline-block; 
+   text-decoraction:none;
+   transition:background .4s;
+}
+
+#menu ul li a:hover{
+  background-color:#411ef1;
+} 
